@@ -1,0 +1,38 @@
+.env
+.env.local
+.env.*.local
+
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+public/build/
+.vite/
+out/
+
+# Cache & temp
+.cache/
+.cache-loader/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tgz
