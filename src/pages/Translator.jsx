@@ -208,23 +208,6 @@ export default function Translator() {
             )}
           </div>
         </div>
-
-        {/* API Info */}
-        <div className="mt-8 p-4 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl border border-indigo-100">
-          <div className="flex items-center space-x-2 text-sm text-indigo-700">
-            <span className="text-indigo-500">🔗</span>
-            <span>
-              Powered by RapidAPI Host:{" "}
-              <code className="bg-white px-2 py-1 rounded font-mono text-xs">
-                {RAPIDAPI_HOST}
-              </code>
-            </span>
-          </div>
-          <div className="mt-2 text-xs text-indigo-600">
-            Configure your API key in the{" "}
-            <code className="bg-white px-1 rounded">.env</code> file
-          </div>
-        </div>
       </div>
     </section>
   );

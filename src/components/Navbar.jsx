@@ -17,7 +17,6 @@ export default function Navbar() {
         >
           <span className="gradient-text">CodeX</span>
           <span className="text-indigo-600">Intern</span>
-          <span className="text-xl ml-1">✨</span>
         </Link>
         <nav className="flex gap-3">
           <NavLink
@@ -27,7 +26,7 @@ export default function Navbar() {
               `${linkBase} ${isActive ? active : inactive}`
             }
           >
-            🏠 Home
+            Home
           </NavLink>
           <NavLink
             to="/translator"
@@ -35,7 +34,7 @@ export default function Navbar() {
               `${linkBase} ${isActive ? active : inactive}`
             }
           >
-            🌐 Translator
+            Translator
           </NavLink>
           <NavLink
             to="/random-string"
@@ -43,7 +42,7 @@ export default function Navbar() {
               `${linkBase} ${isActive ? active : inactive}`
             }
           >
-            🎲 Random String
+            Random String
           </NavLink>
         </nav>
       </div>

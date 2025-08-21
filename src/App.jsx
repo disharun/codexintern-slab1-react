@@ -18,11 +18,9 @@ export default function App() {
       <footer className="border-t bg-white/80 backdrop-blur-sm">
         <div className="container-xl py-6 text-sm text-gray-600">
           <div className="flex items-center justify-between">
-            <span>
-              CodeXIntern – Slab 1 (React + Tailwind + RapidAPI + Routing)
-            </span>
+            <span>CodeXIntern</span>
             <div className="flex items-center space-x-4">
-              <span className="text-xs">Made with ❤️</span>
+              <span className="text-xs">Done.</span>
             </div>
           </div>
         </div>
